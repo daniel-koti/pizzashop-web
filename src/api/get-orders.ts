@@ -7,7 +7,7 @@ export interface GetOrdersQuery {
   status?: string | null
 }
 
-type OrderStatus =
+export type OrderStatus =
   | 'pending'
   | 'canceled'
   | 'processing'
