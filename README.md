@@ -11,7 +11,7 @@ This project is a dashboard designed for store owners with restaurants integrate
 ## Important Notes
 
 - A backend server is required to access all features of this app.
-- Clone the backend repository for this project [here 👇](https://github.com/rocketseat-education/pizzashop-api) and follow the setup instructions.
+- Clone the backend repository for this project [here](https://github.com/rocketseat-education/pizzashop-api) and follow the setup instructions.
 
 ## Features 
 - Authentication (magic link)
@@ -45,6 +45,16 @@ To run this project in the development mode, you'll need to install a package ma
   $ npm install
 ```
 
+#### Create environment variables
+
+Create a .env.local file and then add the following variables
+
+```bash
+  - VITE_API_URL=
+
+  - VITE_ENABLE_API_DELAY=true
+```
+
 ## Built With
 - React.js
 - Tailwindcss
@@ -58,11 +68,3 @@ To run this project in the development mode, you'll need to install a package ma
 - Zod
 - React hook form
 
-#### Create environment variables
-
-Create a .env.local file and then add the following variables
-
-```bash
-  - VITE_API_URL=
-  - VITE_ENABLE_API_DELAY=true
-```
